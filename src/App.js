@@ -1,12 +1,16 @@
 import './App.css';
-import Apply from './Components/Apply';
-import Header from './Components/Header';
+import Insert from './Component1/Insert';
+// import Apply from './Components/Apply';
+// import Header from './Components/Header';
+
 
 function App() {
   return (
     <div className='page'>
-      <Header/>
-      <Apply/>
+      {/* <Header/>
+      <Apply/> */}
+      <Insert/>
+
     </div>    
   );
 }
